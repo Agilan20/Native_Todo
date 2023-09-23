@@ -1,5 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
-import { useState } from 'react';
 import { StyleSheet, Text, TextInput, View, ScrollView, FlatList, TouchableOpacity } from 'react-native';
 
 export default function Sandbox() {
@@ -15,7 +13,6 @@ export default function Sandbox() {
 
 const styles = StyleSheet.create({
     container: {
-        // flex:1, 
         flexDirection: "row",
         justifyContent: "space-around", 
         alignItems:"flex-end",
