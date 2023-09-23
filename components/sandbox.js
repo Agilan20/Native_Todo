@@ -1,7 +1,8 @@
-import { StyleSheet, Text, TextInput, View, ScrollView, FlatList, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text,  View } from 'react-native';
 
 export default function Sandbox() {
     return (
+        // this page is for sample flexbox attempt
         <View style={styles.container}>
             <Text style={styles.boxone}>one</Text>
             <Text style={styles.boxtwo}>two</Text>
